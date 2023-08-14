@@ -4,7 +4,9 @@ body {
     margin: 0;
 }
 * {
+    /* Border to help see layout
     border: 2px solid red;
+    */
 }
 .zone {
     cursor:pointer;
@@ -113,7 +115,7 @@ nav {
     background-color: #2a333b;
     width: 300px;
     height: 300px;
-    padding: 25px;
+    margin: 25px;
 }
 footer {
     color: white;
