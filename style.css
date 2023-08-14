@@ -98,9 +98,11 @@ nav {
     height: 500px;
 }
 .project-grid {
+    justify-content: center;
+    align-items: center;
     display: grid;
     padding: 25px;
-    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 20px;
     
 }
